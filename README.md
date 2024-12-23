@@ -49,7 +49,7 @@ python --version
 
 ## Run the Application:
 
-python notepad.py
+python project.py
 
 View the About Notepad section for application details.
 ## Contributing
