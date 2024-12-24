@@ -16,6 +16,7 @@ def createwidets():
     fileMenu = Menu(menuBar, tearoff=0)
     fileMenu.add_command(label="New", command=newFile)
     fileMenu.add_command(label="Open", command=openFile)
+    fileMenu.add_command(label="Save as", command=saveFile)
     fileMenu.add_command(label="Save", command=saveFile)
     fileMenu.add_separator()
     fileMenu.add_command(label="Exit", command=exit)
